@@ -10,24 +10,41 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to the LocalTrack Project</h1>
-    <p>A simple habit tracker designed to run in your browser using local storage.</p>
-    <small>Note: Clearing your browser history will also remove all data stored in local storage.</small>
+    <div class="container">
+        <div class="showcase">
+            <h1>Welcome to the LocalTrack Project 👋🏽🤠</h1>
+            <p>A simple habit tracker designed to run in your browser using local storage.</p>
+            <small>Note: Clearing your browser history will also remove all data stored in local storage.</small>
+        </div>
+
+        <form action="">
+            <label for="habit">Create a habit</label>
+            <input type="text" id="habit" name="habit" placeholder="e.g., Drink water daily">
+            <button type="submit"><i class="fa-solid fa-plus"></i> Add Habit</button>
+        </form>
+
+        <ul class="habits-list">
+            <li>
+                Reading
+                <button class="remove-btn">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </li>
+            <li>
+                Yoga
+                <button class="remove-btn">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </li>
+            <li>
+                Waking up early
+                <button class="remove-btn">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </li>
+            <button class="remove-all-btn">Delete All</button>
+        </ul>
+    </div>
     <script src="script.js"></script>
-
-    <form action="">
-        <label for="habit">Create a habit</label>
-        <input type="text" id="habit" name="habit" placeholder="e.g., Drink water daily">
-        <button type="submit"><i class="fa-solid fa-plus"></i> Add Habit</button>
-    </form>
-
-    <ul class="habits-list">
-        <li>
-            Running
-            <button class="remove-btn">
-                <i class="fa-solid fa-xmark"></i>
-            </button>
-        </li>
-    </ul>
 </body>
 </html>

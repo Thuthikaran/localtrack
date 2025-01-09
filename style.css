@@ -1,0 +1,51 @@
+body {
+    background-color: navy;
+}
+.container {
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    color: #fff;
+    padding: 50px;
+}
+
+form {
+   padding-top: 20px;
+}
+
+form label , input , button{
+    font-size:22px;
+    padding: 0 10px;
+}
+
+ul {
+    padding:5px;
+}
+li {
+    list-style: none;
+    padding: 5px;
+    font-size:22px;
+}
+
+.showcase {
+    padding:50px;
+    background-color: rgb(1, 1, 71);
+}
+
+.remove-btn {
+    color: red;
+    font-size: 22px;
+    cursor: pointer;
+}
+
+.remove-all-btn {
+    margin: 10px;
+    cursor: pointer;
+    font-size: 22px;    
+
+}
+
+.remove-all-btn:hover {
+    background-color: red;
+    color: #fff;
+}
